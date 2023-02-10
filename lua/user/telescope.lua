@@ -76,6 +76,11 @@ telescope.setup {
         ["?"] = actions.which_key,
       },
     },
+
+    file_ignore_patterns = {
+      'node_modules',
+      'spec/fixtures/vcr',
+    }
   },
   pickers = {
     -- Default configuration for builtin pickers goes here:
